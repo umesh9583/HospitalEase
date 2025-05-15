@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to HospitalEase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gradient-to-br from-blue-900 via-purple-900 to-blue-800 text-white font-inter">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full bg-gray-900 bg-opacity-90 shadow-lg z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-cyan-400 font-poppins">HospitalEase</h1>
+      <ul class="flex space-x-4">
+        <!--<li><a href="#hero" class="nav-link">Home</a></li>--!>
+        <!--<li><a href="#dashboard" class="nav-link nav-dashboard">Dashboard</a></li>--!>
+        <li><a href="register.html" class="nav-link nav-register">Register</a></li>
+        <li><a href="login.html" class="nav-link nav-schedule">Login</a></li>
+        <li><a href="contact.html" class="nav-link nav-edit">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="">
+  
+   <!-- Hero Section -->
+    <section class="relative h-[550px] pt-[100px] flex items-center justify-center">
+        <!-- Placeholder for background image -->
+        <div class="absolute bg-[url(https://images.pexels.com/photos/7108325/pexels-photo-7108325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] bg-black/50 bg-center bg-cover inset-0 opacity-40"></div>
+        <div class="relative text-center text-white z-10">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                Transforming Hospital Operations <br>for a Better Patient Experience
+            </h1>
+            <p class="text-lg md:text-xl mb-6">
+                Reduced Administrative Burden, More Time for Care
+            </p>
+            <button class="bg-black text-white rounded-full px-6 py-3 font-medium hover:bg-gray-800">
+                Know More
+            </button>
+        </div>
+    </section>
+
+    <!-- Free Section -->
+    <section class="bg-teal-500 text-white text-center py-4">
+        <p class="text-xl font-semibold">HospitalEase is Completely FREE</p>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-12 text-center">
+        <h2 class="text-2xl font-bold mb-8">How it works</h2>
+        <div class="flex justify-center space-x-8">
+            <!-- Icon placeholders -->
+            <div class="flex flex-col items-center">
+                <div class="w-72 p-4 bg-blue-400 rounded-xl flex items-center flex-col justify-center">
+                    <!-- Placeholder for messaging icon -->
+                    <span class="text-4xl">📩</span>
+                    <span class="text-xl">Sign up Patient</span>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-72 p-4 bg-emerald-400 rounded-xl flex items-center flex-col justify-center">
+                    <!-- Placeholder for camera icon -->
+                    <span class="text-4xl">📷</span>
+                    <span class="text-xl">Sign up Patient</span>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-72 p-4 bg-rose-400 rounded-xl flex items-center flex-col justify-center">
+                    <!-- Placeholder for play/share icon -->
+                    <span class="text-4xl">▶️</span>
+                    <span class="text-xl">Book Appointment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Hero Section -->
+    <!-- <section id="hero" class="text-center mb-12">
+      <h2 class="text-5xl font-bold text-cyan-300 animate-fade-in">Welcome to HMS</h2>
+      <p class="text-xl mt-4 animate-fade-in-delay">Manage patients, doctors, appointments, and more with ease.</p>
+      
+    </section>
+ --> 
+    <!-- Carousel -->
+    <section class="w-full max-w-6xl mx-auto my-12">
+      <div class="relative overflow-hidden rounded-lg shadow-lg">
+        <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
+          <img src="/images/slide1.jpg" class="w-full object-cover flex-shrink-0 min-w-full" />
+          <img src="/images/slide2.webp" class="w-full object-cover flex-shrink-0 min-w-full" />
+          <img src="/images/slide3.webp" class="w-full object-cover flex-shrink-0 min-w-full" />
+          <img src="/images/slide4.webp" class="w-full object-cover flex-shrink-0 min-w-full" />
+          <img src="/images/slide5.jpg" class="w-full object-cover flex-shrink-0 min-w-full" />
+          
+        </div>
+      </div>
+      
+      <div class="mt-8 w-full">
+        <iframe width="800" height="400" class="mx-auto" src="https://www.youtube.com/embed/dPtUMhbjP28?si=P9Ivx2SFj2WU2qWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto my-16">
+      <div class="glass-card animate-feature-fade">
+        <h3 class="text-xl font-bold text-cyan-400">Patient Records</h3>
+        <p class="text-sm mt-2">Track and manage detailed patient profiles and medical histories.</p>
+      </div>
+      <div class="glass-card animate-feature-fade">
+        <h3 class="text-xl font-bold text-purple-400">Doctor Scheduling</h3>
+        <p class="text-sm mt-2">Assign doctors automatically or manually based on appointment slots.</p>
+      </div>
+      <div class="glass-card animate-feature-fade">
+        <h3 class="text-xl font-bold text-green-400">Real-time Reports</h3>
+        <p class="text-sm mt-2">Dashboard updates for appointments, patient count, and doctor availability.</p>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="bg-gray-800 text-center py-6 mt-10">
+    <p class="text-gray-400">&copy; 2025 Hospital Management System. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Carousel animation
+    document.addEventListener('DOMContentLoaded', () => {
+      const carousel = document.getElementById('carousel');
+      let index = 0;
+      setInterval(() => {
+        index = (index + 1) % 5;
+        carousel.style.transform = `translateX(-${index * 100}%)`;
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
